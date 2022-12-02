@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-if__name__== "__main__":
+if __name__== "__main__":
 """Printthe addition of all arguments."""
-importsys
+import sys
 
-total= 0
-fori in range(len(sys.argv) - 1):
-total+= int(sys.argv[i + 1)]
+total = 0
+for i in range(len(sys.argv) - 1):
+total += int(sys.argv[i + 1)]
 print("{}".format(total))
