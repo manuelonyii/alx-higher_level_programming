@@ -17,7 +17,7 @@ class Square extends PrevSquare {
 
       console.log(myVar);
     }
-  
+  }
 }
 
 module.exports = Square;
